@@ -1,7 +1,7 @@
 /*
-Write a function `avgVal(arr)` that accepts an array as an arg. The function
-should return the average of all values in the array. If the array is empty,
-it should return `null`.
+Write a function `avgVal(arr)` that accepts an array as an arg.
+ The function should return the average of all values in the array.
+ If the array is empty, it should return `null`.
 
 Solve this using Array's `forEach()` method.
 
@@ -13,8 +13,8 @@ console.log(avgVal([])); // null
 
 */
 
-let avgVal = function(arr) {
-    // Your code here
+let avgVal = function (arr) {
+  // Your code here
 };
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
