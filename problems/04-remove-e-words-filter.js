@@ -12,9 +12,16 @@ console.log(removeEWords('Enter the building')); // 'building'
 
 */
 
-let removeEWords = function(sentence) {
-    // Your code here
+let removeEWords = function (sentence) {
+  let newArr = []
+  newArr.push(sentence)
+  console.log(newArr)
+  return newArr.filter(word => {
+    if (word.includes()) { }
+  })
 };
+console.log(removeEWords('What time is it everyone?')); // 'What is it'
+console.log(removeEWords('Enter the building')); // 'building'
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
@@ -22,4 +29,4 @@ try {
   module.exports = removeEWords;
 } catch (e) {
   module.exports = null;
-}
+}
